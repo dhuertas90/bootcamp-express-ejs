@@ -4,13 +4,13 @@ Este proyecto utiliza Express.js para configurar un servidor web básico y EJS c
 
 ## Instalación
 1. Instala las dependencias:
-npm install express ejs
+    npm install express ejs
 
 2. Ejecuta el servidor:
-node app.js
+    node app.js
 
 3. Abre tu navegador y visita:
-http://localhost:3000
+    http://localhost:3000
 
 ## Funcionalidades
 - Archivos Estáticos: Sirve archivos desde la carpeta public.
@@ -18,7 +18,7 @@ http://localhost:3000
 - Ruta Principal: La ruta / renderiza la vista index.ejs con datos dinámicos.
 
 ## Estructura de Carpetas Actual
-
+```
 .
 ├── app.js            # Archivo principal del servidor
 ├── public/           # Archivos estáticos (CSS, imágenes)
@@ -26,7 +26,7 @@ http://localhost:3000
 ├── views/            # Plantillas EJS
 │   └── index.ejs     # Plantilla EJS para la página principal
 └── package.json      # Dependencias y configuración del 
-
+```
 ## Nota
 - La carpeta public se configura como la carpeta estática, accesible públicamente.
 - EJS se usa para renderizar archivos HTML con contenido dinámico.
